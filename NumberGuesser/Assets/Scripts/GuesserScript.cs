@@ -29,7 +29,7 @@ public class GuesserScript : MonoBehaviour
     {
         count--;
         
-        guess = (min + max) / 2;
+		guess = Random.Range(min, max);
         print("Is the number " + guess + "?");
     }
 	
@@ -41,6 +41,8 @@ public class GuesserScript : MonoBehaviour
         if (count <= 0)
         {
             print("You Win.");
+			count = 1;
+
         }
         
         else if (Input.GetKeyDown(KeyCode.UpArrow))

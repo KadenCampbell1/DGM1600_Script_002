@@ -23,6 +23,7 @@ public class GuesserScript : MonoBehaviour
         print("Up arrow for higher, Down arrow for lower, Enter for correct.");
 
         max = max + 1;
+
 	}
 
     private void NextGuess()

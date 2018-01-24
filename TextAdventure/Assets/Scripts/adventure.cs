@@ -11,9 +11,10 @@ public class adventure : MonoBehaviour
 	public int murderCount;
 	private int gameOver = 1;
 	private int key = 0;
-	private int venusStatue = 0;
-	private int visitedFire = 0;
+	public int venusStatue = 0;
+	//private int visitedFire = 0;
 	private int visitedItems = 0;
+    public bool visitedFire;
 
 
 	// Use this for initialization
@@ -112,35 +113,38 @@ public class adventure : MonoBehaviour
 					if (Input.GetKeyDown (KeyCode.F))
 					{
 						Fireplace ();
-						visitedFire = 1;
+						visitedFire = true;
 					}
-					if (visitedFire >= 1) 
+
+                    //!visitedFire for false
+
+					if (visitedFire) 
 					{
 						if (Input.GetKeyDown (KeyCode.I)) 
 						{
 							Items ();
 							visitedItems = 1; 
 						}
-					if (visitedItems >= 1) 
-					{
-						if (Input.GetKeyDown (KeyCode.P)) 
-						{
-							Photos ();
-						}	
+					    if (visitedItems >= 1) 
+					    {
+						    if (Input.GetKeyDown (KeyCode.P)) 
+						    {
+						    	Photos ();
+						    }	
 
-						if (Input.GetKeyDown (KeyCode.V)) 
-						{
-							Vase ();
-						}	
+						    if (Input.GetKeyDown (KeyCode.V)) 
+						    {
+						    	Vase ();
+						    }	
 
-						if (Input.GetKeyDown (KeyCode.S)) 
-						{
-							Statue ();
-						}
+						    if (Input.GetKeyDown (KeyCode.S)) 
+						    {
+						    	Statue ();
+						    }
+					    }
+
 					}
-
-					}
-					else if (murderCount <= 0) 
+					if (murderCount <= 0) 
 					{
 						if (venusStatue <= 0) 
 						{

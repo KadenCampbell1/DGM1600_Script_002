@@ -125,4 +125,12 @@ public class Adventure : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.G)) { currentState = States.gate; }
         if (Input.GetKeyDown(KeyCode.B)) { currentState = States.bed; }
     }
+
+
+
+    //youtube music archive
+    //https://www.youtube.com/audiolibrary/music
+    //sprite creator
+    //https://www.piskelapp.com/
+
 }

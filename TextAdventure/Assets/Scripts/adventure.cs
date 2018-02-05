@@ -167,9 +167,6 @@ public class adventure : MonoBehaviour
                 print("Your game is over.");
             }
 
-
-
-
         }
 
         */
@@ -205,19 +202,36 @@ public class adventure : MonoBehaviour
 
     private void Door()
     {
-        myLocation = Location.door;
-        titleObject.text = "Door";
-        textObject.text = "The Door is locked, it has a place for a key. \n" +
-            "It seems that someone is doing this to hurt you.\n" +
-            "Press W for Window,C for the Center of the room or F for Fireplace.";
+        if (key == false)
+        {
+            myLocation = Location.door;
+            titleObject.text = "Door";
+            textObject.text = "The Door is locked, it has a place for a key. \n" +
+                "It seems that someone is doing this to hurt you.\n" +
+                "Press W for Window,C for the Center of the room or F for Fireplace.";
+
+            if (Input.GetKeyDown(KeyCode.C)) { myLocation = Location.centerRoom; }
+            if (Input.GetKeyDown(KeyCode.W)) { myLocation = Location.window; }
+            if (Input.GetKeyDown(KeyCode.F)) { myLocation = Location.fireplace; }
+        }
+      
+        /*
         if (key == true)
         {
             gameOver = true;
         }
+        */
 
-        if (Input.GetKeyDown(KeyCode.C)) { myLocation = Location.centerRoom; }
-        if (Input.GetKeyDown(KeyCode.W)) { myLocation = Location.window; }
-        if (Input.GetKeyDown(KeyCode.F)) { myLocation = Location.fireplace; }
+        else
+        {
+            titleObject.text = "You've Escaped!";
+            textObject.text = "You used the key to unlock the Door. \n" +
+                "You have exited the living room and ran out the front door. \n" +
+                "You get to the car and drive away. \n" +
+                "You Win!";
+            murderCount = 2;
+        }
+       
     }
 
     private void Window()
@@ -415,7 +429,7 @@ public class adventure : MonoBehaviour
                     "You are dead.";
             }
 
-            if (venusStatue == true)
+            else if (venusStatue == true)
             {
                 titleObject.text = "You've Escaped!";
                 textObject.text = "The murderer has entered the room, however you have the Venus Statue. \n" +
@@ -431,8 +445,8 @@ public class adventure : MonoBehaviour
                     "You are dead.";
             }
             */
-
-            if (key == true)
+            /*
+            else if (key == true)
             {
                 titleObject.text = "You've Escaped!";
                 textObject.text = "You used the key to unlock the Door. \n" +
@@ -440,7 +454,7 @@ public class adventure : MonoBehaviour
                     "You get to the car and drive away. \n" +
                     "You Win!";
             }
-
+            */
         }
     }
 

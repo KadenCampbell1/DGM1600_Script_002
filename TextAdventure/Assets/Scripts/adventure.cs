@@ -171,7 +171,7 @@ public class adventure : MonoBehaviour
 
         */
 
-    public enum Location { centerRoom, door, window, fireplace, items, photos, vase, statue };
+    public enum Location { centerRoom, door, window, fireplace, items, photos, vase, statue, table, manila };
     public Location myLocation;
     public Text titleObject;
     public Text textObject;
@@ -179,6 +179,7 @@ public class adventure : MonoBehaviour
     public int murderCount;
     public bool key;
     public bool venusStatue;
+    public bool manila;
 
 
     void Start()
@@ -191,12 +192,10 @@ public class adventure : MonoBehaviour
         myLocation = Location.centerRoom;
         titleObject.text = "Center of the Room";
         textObject.text = "you are in the Center of a room. \n" +
-            "You see a Window, a Door, and a Fireplace.\n" +
-            "Press W for Window, D for door or F for Fireplace.";
+            "There is a coffee Table in front of you.\n" +
+            "Press T for the coffee Table";
 
-        if (Input.GetKeyDown(KeyCode.W)) { myLocation = Location.window; }
-        if (Input.GetKeyDown(KeyCode.D)) { myLocation = Location.door; }
-        if (Input.GetKeyDown(KeyCode.F)) { myLocation = Location.fireplace; }
+        if (Input.GetKeyDown(KeyCode.T)) { myLocation = Location.table; }
     }
 
 
@@ -206,11 +205,21 @@ public class adventure : MonoBehaviour
         {
             myLocation = Location.door;
             titleObject.text = "Door";
-            textObject.text = "The Door is locked, it has a place for a key. \n" +
-                "It seems that someone is doing this to hurt you.\n" +
-                "Press W for Window,C for the Center of the room or F for Fireplace.";
-
-            if (Input.GetKeyDown(KeyCode.C)) { myLocation = Location.centerRoom; }
+            if (manila == true)
+            {
+                textObject.text = "The Door is locked, it has a place for a key. \n" +
+                    "It seems that someone is doing this to hurt you.\n" +
+                    "You better burn the Manila envelope, so the murderer won't have leverage on you.\n" +
+                    "Press F for Fireplace, T for the coffee Table, W for Window.";
+            }
+            else
+            {
+                textObject.text = "The Door is locked, it has a place for a key. \n" +
+                    "It seems that someone is doing this to hurt you.\n" +
+                    "Press W for Window, T for the coffee Table, F for Fireplace.";
+            }
+            
+            if (Input.GetKeyDown(KeyCode.T)) { myLocation = Location.table; }
             if (Input.GetKeyDown(KeyCode.W)) { myLocation = Location.window; }
             if (Input.GetKeyDown(KeyCode.F)) { myLocation = Location.fireplace; }
         }
@@ -241,9 +250,9 @@ public class adventure : MonoBehaviour
         textObject.text = "It is dark outside and it is raining hard.\n" +
             "Through the Window you can see a car...\n" +
             "It could be the murderer's.\n" +
-            "Press D for Door, C for the Center of the room or F for Fireplace.";
+            "Press T for the coffee Table, D for Door or F for Fireplace.";
 
-        if (Input.GetKeyDown(KeyCode.C)) { myLocation = Location.centerRoom; }
+        if (Input.GetKeyDown(KeyCode.T)) { myLocation = Location.table; }
         if (Input.GetKeyDown(KeyCode.D)) { myLocation = Location.door; }
         if (Input.GetKeyDown(KeyCode.F)) { myLocation = Location.fireplace; }
     }
@@ -252,13 +261,22 @@ public class adventure : MonoBehaviour
     {
         myLocation = Location.fireplace;
         titleObject.text = "Fireplace";
-        textObject.text = "The fire is warm. \n" +
-            "There is a Shelf with items above it.\n" +
-            "Press S for the Shelf, W for Window, C for the Center of the room, or D for Door.";
+        if (manila == false)
+        {
+            textObject.text = "The fire is warm. \n" +
+                "There is a Shelf with items above it.\n" +
+                "Press T for the coffee Table, S for the Shelf, W for Window, or D for Door.";
+        }
+        else
+        {
+            textObject.text = "The fire is warm. You have burned the Manila envelope. \n" +
+                "There is a Shelf with items above it.\n" +
+                "Press T for the coffee Table, S for the Shelf, W for Window, or D for Door.";
+        }
 
+        if (Input.GetKeyDown(KeyCode.T)) { myLocation = Location.table; }
         if (Input.GetKeyDown(KeyCode.S)) { myLocation = Location.items; }
         if (Input.GetKeyDown(KeyCode.W)) { myLocation = Location.window; }
-        if (Input.GetKeyDown(KeyCode.C)) { myLocation = Location.centerRoom; }
         if (Input.GetKeyDown(KeyCode.D)) { myLocation = Location.door; }
         if (Input.GetKeyDown(KeyCode.F)) { myLocation = Location.fireplace; }
     }
@@ -269,11 +287,11 @@ public class adventure : MonoBehaviour
         titleObject.text = "Shelf";
         textObject.text = "You see family Photos, a Vase of flowers, and a Statue.\n" +
             "Press P for the Photos, V for the Vase, or S for the Statue.\n" +
-            "Press D for Door, C for the Center of the room, F for Fireplace, or W for the Window.";
+            "Press T for the coffee Table, D for Door, F for Fireplace, or W for the Window.";
 
+        if (Input.GetKeyDown(KeyCode.T)) { myLocation = Location.table; }
         if (Input.GetKeyDown(KeyCode.W)) { myLocation = Location.window; }
         if (Input.GetKeyDown(KeyCode.D)) { myLocation = Location.door; }
-        if (Input.GetKeyDown(KeyCode.C)) { myLocation = Location.centerRoom; }
         if (Input.GetKeyDown(KeyCode.P)) { myLocation = Location.photos; }
         if (Input.GetKeyDown(KeyCode.V)) { myLocation = Location.vase; }
         if (Input.GetKeyDown(KeyCode.S)) { myLocation = Location.statue; }
@@ -289,11 +307,11 @@ public class adventure : MonoBehaviour
         textObject.text = "It is a nice looking family, but it is not yours. \n" +
             "There is a key taped to the back. (you now possess the key)\n" +
             "Press V for the Vase, or S for the Statue.\n" +
-            "Press D for Door, F for Fireplace, C for the Center of the room, or W for the Window.";
+            "Press T for the coffee Table, D for Door, F for Fireplace, or W for the Window.";
 
+        if (Input.GetKeyDown(KeyCode.T)) { myLocation = Location.table; }
         if (Input.GetKeyDown(KeyCode.W)) { myLocation = Location.window; }
         if (Input.GetKeyDown(KeyCode.D)) { myLocation = Location.door; }
-        if (Input.GetKeyDown(KeyCode.C)) { myLocation = Location.centerRoom; }
         if (Input.GetKeyDown(KeyCode.V)) { myLocation = Location.vase; }
         if (Input.GetKeyDown(KeyCode.S)) { myLocation = Location.statue; }
         if (Input.GetKeyDown(KeyCode.F)) { myLocation = Location.fireplace; }
@@ -305,11 +323,11 @@ public class adventure : MonoBehaviour
         titleObject.text = "Vase";
         textObject.text = "A Vase of roses. They are very pretty.\n" +
             "Press P for the Photo, or S for the Statue.\n" +
-            "Press D for Door, F for Fireplace, C for the Center of the room, or W for the Window.";
+            "Press T for the coffee Table, D for Door, F for Fireplace, or W for the Window.";
 
+        if (Input.GetKeyDown(KeyCode.T)) { myLocation = Location.table; }
         if (Input.GetKeyDown(KeyCode.W)) { myLocation = Location.window; }
         if (Input.GetKeyDown(KeyCode.D)) { myLocation = Location.door; }
-        if (Input.GetKeyDown(KeyCode.C)) { myLocation = Location.centerRoom; }
         if (Input.GetKeyDown(KeyCode.P)) { myLocation = Location.photos; }
         if (Input.GetKeyDown(KeyCode.S)) { myLocation = Location.statue; }
         if (Input.GetKeyDown(KeyCode.F)) { myLocation = Location.fireplace; }
@@ -323,16 +341,45 @@ public class adventure : MonoBehaviour
         textObject.text = "It is a miniature Statue of venus. \n" +
             "You can use this to attack the murderer.\n" +
             "Press P for the Photo, or V for the Vase.\n" +
-            "Press D for Door, F for Fireplace, C for the Center of the room, or W for the Window.";
+            "Press T for the coffee Table, D for Door, F for Fireplace, or W for the Window.";
 
+        if (Input.GetKeyDown(KeyCode.T)) { myLocation = Location.table; }
         if (Input.GetKeyDown(KeyCode.W)) { myLocation = Location.window; }
         if (Input.GetKeyDown(KeyCode.D)) { myLocation = Location.door; }
-        if (Input.GetKeyDown(KeyCode.C)) { myLocation = Location.centerRoom; }
         if (Input.GetKeyDown(KeyCode.P)) { myLocation = Location.photos; }
         if (Input.GetKeyDown(KeyCode.V)) { myLocation = Location.vase; }
         if (Input.GetKeyDown(KeyCode.F)) { myLocation = Location.fireplace; }
     }
 
+    private void Table()
+    {
+        myLocation = Location.table;
+        titleObject.text = "Table";
+        textObject.text = "It is a knee high coffee table made of oak. \n" +
+            "There is a Manila envelope with pictures sticking out.\n" +
+            "Press M for the Manila envelope.\n" +
+            "Press D for Door, F for Fireplace, or W for the Window.";
+
+        if (Input.GetKeyDown(KeyCode.M)) { myLocation = Location.manila; }
+        if (Input.GetKeyDown(KeyCode.D)) { myLocation = Location.door; }
+        if (Input.GetKeyDown(KeyCode.F)) { myLocation = Location.fireplace; }
+        if (Input.GetKeyDown(KeyCode.W)) { myLocation = Location.window; }
+    }
+
+    private void Manila()
+    {
+        manila = true;
+        myLocation = Location.manila;
+        titleObject.text = "Manila Envelope";
+        textObject.text = "It is a Manila envelope filed with pictures and documents that could be used to blackmail you.\n" +
+            "You should take it and leave. (You now possess the Manila Envelope)\n" +
+            "Press D for Door, T for the coffee Table, F for Fireplace, or W for the Window.";
+
+        if (Input.GetKeyDown(KeyCode.T)) { myLocation = Location.table; }
+        if (Input.GetKeyDown(KeyCode.D)) { myLocation = Location.door; }
+        if (Input.GetKeyDown(KeyCode.F)) { myLocation = Location.fireplace; }
+        if (Input.GetKeyDown(KeyCode.W)) { myLocation = Location.window; }
+    }
 
     // Update is called once per frame
     void Update()
@@ -344,7 +391,12 @@ public class adventure : MonoBehaviour
                 murderCount--;
             }
 
-            else if (Input.GetKeyDown(KeyCode.C))
+            else if (Input.GetKeyDown(KeyCode.M))
+            {
+                murderCount--;
+            }
+
+            else if (Input.GetKeyDown(KeyCode.T))
             {
                 murderCount--;
             }
@@ -417,6 +469,14 @@ public class adventure : MonoBehaviour
             else if (myLocation == Location.statue)
             {
                 Statue();
+            }
+            else if (myLocation == Location.table)
+            {
+                Table();
+            }
+            else if (myLocation == Location.manila)
+            {
+                Manila();
             }
 
         }

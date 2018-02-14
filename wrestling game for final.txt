@@ -1,0 +1,2 @@
+you have to draw a path before you start the level and enemies try to hit you and you control two arms (one with WASD and one with the arrow keys). 
+The later levels can have obsticals that is your path goes through them you fail.

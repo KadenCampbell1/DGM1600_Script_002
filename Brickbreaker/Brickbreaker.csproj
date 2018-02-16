@@ -89,9 +89,9 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Ball.cs" />
     <Compile Include="Assets\Script\DontDestroy.cs" />
+    <Compile Include="Assets\Script\Floor.cs" />
+    <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\Health.cs" />
-    <Compile Include="Assets\Script\LevelManager.cs" />
-    <Compile Include="Assets\Script\MenuScript.cs" />
     <Compile Include="Assets\Script\MusicManager.cs" />
     <Compile Include="Assets\Script\Paddle.cs" />
   </ItemGroup>

@@ -79,6 +79,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 2
+  sprites:
+  - {fileID: 21300002, guid: da8feaea2f4289d4fbfb5248a7740e67, type: 3}
+  - {fileID: 21300002, guid: da8feaea2f4289d4fbfb5248a7740e67, type: 3}
+  - {fileID: 21300008, guid: da8feaea2f4289d4fbfb5248a7740e67, type: 3}
 --- !u!212 &212146741795360444
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4935291888640356}
   - component: {fileID: 212403254934454052}
   - component: {fileID: 61022772706278286}
-  - component: {fileID: 114498652731900698}
+  - component: {fileID: 114072746319390518}
   m_Layer: 8
   m_Name: Brick 1
   m_TagString: Untagged
@@ -36,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1903395254650238}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: -3.3, z: 0}
+  m_LocalPosition: {x: 1.2342262, y: -0.58, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -67,7 +67,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.3125}
   m_EdgeRadius: 0
---- !u!114 &114498652731900698
+--- !u!114 &114072746319390518
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -79,6 +79,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+  sprites:
+  - {fileID: 21300008, guid: da8feaea2f4289d4fbfb5248a7740e67, type: 3}
+  - {fileID: 21300008, guid: da8feaea2f4289d4fbfb5248a7740e67, type: 3}
 --- !u!212 &212403254934454052
 SpriteRenderer:
   m_ObjectHideFlags: 1

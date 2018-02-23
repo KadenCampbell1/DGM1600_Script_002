@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4361254025940442}
   - component: {fileID: 212500743775413018}
   - component: {fileID: 60240810801964496}
+  - component: {fileID: 114070472871832412}
   m_Layer: 0
   m_Name: Paddle
   m_TagString: Untagged
@@ -35,7 +36,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1323384602410810}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.4467173, z: 0}
+  m_LocalPosition: {x: 0, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -65,12 +66,24 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.33241498, y: 0.110973835}
-      - {x: -0.62499994, y: -0.004796505}
+    - - {x: -0.304682, y: 0.110973835}
+      - {x: -0.62499994, y: 0.04868841}
       - {x: -0.625, y: -0.109375}
       - {x: 0.625, y: -0.109375}
-      - {x: 0.6240821, y: 0.011623383}
-      - {x: 0.28764775, y: 0.109375}
+      - {x: 0.6240821, y: 0.047279835}
+      - {x: 0.2975524, y: 0.11135578}
+--- !u!114 &114070472871832412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1323384602410810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83fa3bf8cce401840ba6479272665a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoPlay: 0
 --- !u!212 &212500743775413018
 SpriteRenderer:
   m_ObjectHideFlags: 1

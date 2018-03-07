@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 45e7c673a7149cc419503b692658662a
-timeCreated: 1519837266
+timeCreated: 1520441707
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -45,6 +45,7 @@ TextureImporter:
     21300076: RedShirt_DiagUp7
     21300078: RedShirt_DiagUp8
     21300080: RedShirt_DiagDown7
+    21300082: RedShirt_Shoot
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -717,6 +718,20 @@ TextureImporter:
         height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedShirt_Shoot
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

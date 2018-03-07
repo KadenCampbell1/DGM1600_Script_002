@@ -36,10 +36,15 @@ public class PlayerMovement : MonoBehaviour {
             //flip sprite renderer
             rend.flipX = true;
         }
-        else
+        else if (Input.GetAxisRaw("Horizontal") > 0.1f)
         {
             //unflip
             rend.flipX = false;
+        }
+
+        if (Input.GetButton("Fire1"))
+        {
+            anim.SetTrigger("ShootGo");
         }
 
 	}

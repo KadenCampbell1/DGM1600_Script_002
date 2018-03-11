@@ -180,6 +180,7 @@ public class adventure : MonoBehaviour
     public bool key;
     public bool venusStatue;
     public bool manila;
+    public int locationSpriteNumber;
 
 
     void Start()
@@ -190,10 +191,14 @@ public class adventure : MonoBehaviour
     private void CenterRoom()
     {
         myLocation = Location.centerRoom;
+
+        locationSpriteNumber = 0;
+
         titleObject.text = "Center of the Room";
         textObject.text = "you are in the Center of a room. \n" +
             "There is a coffee Table in front of you.\n" +
             "Press T for the coffee Table";
+        
 
         if (Input.GetKeyDown(KeyCode.T)) { myLocation = Location.table; }
     }
@@ -201,6 +206,8 @@ public class adventure : MonoBehaviour
 
     private void Door()
     {
+        locationSpriteNumber = 1;
+
         if (key == false)
         {
             myLocation = Location.door;
@@ -240,12 +247,14 @@ public class adventure : MonoBehaviour
                 "You Win!";
             murderCount = 2;
         }
-       
     }
 
     private void Window()
     {
         myLocation = Location.window;
+
+        locationSpriteNumber = 2;
+
         titleObject.text = "Window";
         textObject.text = "It is dark outside and it is raining hard.\n" +
             "Through the Window you can see a car...\n" +
@@ -260,6 +269,9 @@ public class adventure : MonoBehaviour
     private void Fireplace()
     {
         myLocation = Location.fireplace;
+
+        locationSpriteNumber = 3;
+
         titleObject.text = "Fireplace";
         if (manila == false)
         {
@@ -279,11 +291,16 @@ public class adventure : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W)) { myLocation = Location.window; }
         if (Input.GetKeyDown(KeyCode.D)) { myLocation = Location.door; }
         if (Input.GetKeyDown(KeyCode.F)) { myLocation = Location.fireplace; }
+
+        
     }
 
     private void Items()
     {
         myLocation = Location.items;
+
+        locationSpriteNumber = 4;
+
         titleObject.text = "Shelf";
         textObject.text = "You see family Photos, a Vase of flowers, and a Statue.\n" +
             "Press P for the Photos, V for the Vase, or S for the Statue.\n" +
@@ -297,12 +314,17 @@ public class adventure : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.S)) { myLocation = Location.statue; }
         if (Input.GetKeyDown(KeyCode.F)) { myLocation = Location.fireplace; }
 
+        
+
     }
 
     private void Photos()
     {
         key = true;
         myLocation = Location.photos;
+
+        locationSpriteNumber = 5;
+
         titleObject.text = "Photo";
         textObject.text = "It is a nice looking family, but it is not yours. \n" +
             "There is a key taped to the back. (you now possess the key)\n" +
@@ -320,6 +342,9 @@ public class adventure : MonoBehaviour
     private void Vase()
     {
         myLocation = Location.vase;
+
+        locationSpriteNumber = 6;
+
         titleObject.text = "Vase";
         textObject.text = "A Vase of roses. They are very pretty.\n" +
             "Press P for the Photo, or S for the Statue.\n" +
@@ -337,6 +362,9 @@ public class adventure : MonoBehaviour
     {
         venusStatue = true;
         myLocation = Location.statue;
+
+        locationSpriteNumber = 7;
+
         titleObject.text = "Statue";
         textObject.text = "It is a miniature Statue of venus. \n" +
             "You can use this to attack the murderer.\n" +
@@ -354,6 +382,9 @@ public class adventure : MonoBehaviour
     private void Table()
     {
         myLocation = Location.table;
+
+        locationSpriteNumber = 8;
+
         titleObject.text = "Table";
         textObject.text = "It is a knee high coffee table made of oak. \n" +
             "There is a Manila envelope with pictures sticking out.\n" +
@@ -370,6 +401,9 @@ public class adventure : MonoBehaviour
     {
         manila = true;
         myLocation = Location.manila;
+
+        locationSpriteNumber = 9;
+
         titleObject.text = "Manila Envelope";
         textObject.text = "It is a Manila envelope filed with pictures and documents that could be used to blackmail you.\n" +
             "You should take it and leave. (You now possess the Manila Envelope)\n" +

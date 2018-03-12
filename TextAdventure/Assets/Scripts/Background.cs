@@ -1,20 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Background : MonoBehaviour {
     public adventure.Location backgroundLocation;
     public Sprite[] backgroundSprite;
-    public int emptyNumber;
+    public int emptyNumber = 0;
+    public Image backgroundImage; 
 
-	
-	// Update is called once per frame
-	void Update ()
+    private void Start()
+    {
+        backgroundImage = GetComponent<Image>(); 
+    }
+
+    // Update is called once per frame
+    void Update ()
     {
         if (backgroundLocation == adventure.Location.centerRoom)
         {
 //            emptyNumber = adventure.locationSpriteNumber;
-            GetComponent<SpriteRenderer>().sprite = backgroundSprite[emptyNumber];
+            backgroundImage.sprite = backgroundSprite[emptyNumber];
         }
     }
 }

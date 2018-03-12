@@ -181,6 +181,8 @@ public class adventure : MonoBehaviour
     public bool venusStatue;
     public bool manila;
     public int locationSpriteNumber;
+    //public Image background;
+    public Background background;
 
 
     void Start()
@@ -192,7 +194,8 @@ public class adventure : MonoBehaviour
     {
         myLocation = Location.centerRoom;
 
-        locationSpriteNumber = 0;
+        background.emptyNumber = 0;
+       // background.emptyNumber = 0;
 
         titleObject.text = "Center of the Room";
         textObject.text = "you are in the Center of a room. \n" +
@@ -206,7 +209,7 @@ public class adventure : MonoBehaviour
 
     private void Door()
     {
-        locationSpriteNumber = 1;
+        background.emptyNumber = 1;
 
         if (key == false)
         {
@@ -253,7 +256,7 @@ public class adventure : MonoBehaviour
     {
         myLocation = Location.window;
 
-        locationSpriteNumber = 2;
+        background.emptyNumber = 2;
 
         titleObject.text = "Window";
         textObject.text = "It is dark outside and it is raining hard.\n" +
@@ -270,7 +273,7 @@ public class adventure : MonoBehaviour
     {
         myLocation = Location.fireplace;
 
-        locationSpriteNumber = 3;
+        background.emptyNumber = 3;
 
         titleObject.text = "Fireplace";
         if (manila == false)
@@ -299,7 +302,7 @@ public class adventure : MonoBehaviour
     {
         myLocation = Location.items;
 
-        locationSpriteNumber = 4;
+        background.emptyNumber = 4;
 
         titleObject.text = "Shelf";
         textObject.text = "You see family Photos, a Vase of flowers, and a Statue.\n" +
@@ -323,7 +326,7 @@ public class adventure : MonoBehaviour
         key = true;
         myLocation = Location.photos;
 
-        locationSpriteNumber = 5;
+        background.emptyNumber = 5;
 
         titleObject.text = "Photo";
         textObject.text = "It is a nice looking family, but it is not yours. \n" +
@@ -343,7 +346,7 @@ public class adventure : MonoBehaviour
     {
         myLocation = Location.vase;
 
-        locationSpriteNumber = 6;
+        background.emptyNumber = 6;
 
         titleObject.text = "Vase";
         textObject.text = "A Vase of roses. They are very pretty.\n" +
@@ -363,7 +366,7 @@ public class adventure : MonoBehaviour
         venusStatue = true;
         myLocation = Location.statue;
 
-        locationSpriteNumber = 7;
+        background.emptyNumber = 7;
 
         titleObject.text = "Statue";
         textObject.text = "It is a miniature Statue of venus. \n" +
@@ -383,7 +386,7 @@ public class adventure : MonoBehaviour
     {
         myLocation = Location.table;
 
-        locationSpriteNumber = 8;
+        background.emptyNumber = 8;
 
         titleObject.text = "Table";
         textObject.text = "It is a knee high coffee table made of oak. \n" +
@@ -402,7 +405,7 @@ public class adventure : MonoBehaviour
         manila = true;
         myLocation = Location.manila;
 
-        locationSpriteNumber = 9;
+        background.emptyNumber = 9;
 
         titleObject.text = "Manila Envelope";
         textObject.text = "It is a Manila envelope filed with pictures and documents that could be used to blackmail you.\n" +
@@ -530,6 +533,8 @@ public class adventure : MonoBehaviour
                     "You smash it over their head and get away.\n" +
                     "You Win!";
             }
+
+
 
             /*
             if (key == false)

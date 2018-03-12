@@ -14,3 +14,6 @@ thu: 48
 fri: 45
 sat: 46
 sun: 45
+
+California weather
+

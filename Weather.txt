@@ -24,3 +24,6 @@ thu: 59
 fri: 60
 sat: 60
 sun: 59
+mon: 62
+tue: 63
+wed: 63

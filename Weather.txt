@@ -1,0 +1,33 @@
+Roy weather
+
+today: 58
+tue: 63
+wed: 61
+thu: 51
+fri: 51
+sat: 50
+sun: 46
+mon: 48
+tue: 50
+wed: 48
+thu: 48
+fri: 45
+sat: 46
+sun: 45
+
+California weather
+
+today: 69
+tue: 64
+wed: 61
+thu: 59
+fri: 60
+sat: 60
+sun: 59
+mon: 62
+tue: 63
+wed: 63
+
+branch 3 items
+next item
+last item

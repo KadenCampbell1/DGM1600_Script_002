@@ -1,0 +1,6 @@
+today: 58
+tue: 63
+wed: 61
+thu: 51
+fri: 51
+sat: 50

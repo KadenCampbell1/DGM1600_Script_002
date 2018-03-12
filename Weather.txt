@@ -17,3 +17,10 @@ sun: 45
 
 California weather
 
+today: 69
+tue: 64
+wed: 61
+thu: 59
+fri: 60
+sat: 60
+sun: 59

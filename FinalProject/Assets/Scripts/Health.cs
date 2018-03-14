@@ -25,7 +25,7 @@ public class Health : MonoBehaviour {
         {
             //die
             //play death particle
-            Instantiate(deathParticle);
+            Instantiate(deathParticle, gameObject.transform.position, Quaternion.identity);
 
             //destroy this gameobject
             Destroy(gameObject);

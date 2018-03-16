@@ -48,13 +48,36 @@ public class PlayerMovement : MonoBehaviour {
         {
             anim.SetTrigger("ShootGo");
         }
-
+        /*
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
             rigid.AddForce(new Vector2(0, jump), ForceMode2D.Force);
         }
+        */
+        if (Input.GetButtonDown("Jump"))
+        {
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 2.0f, 8);
+            if (hit.collider.tag != null)
+            {
+                if (hit.collider.tag == "Ground")
+                {
+                    isGrounded = true;
+                    Debug.Log(hit.collider.tag);
+                }
+                else
+                {
+                    isGrounded = false;
+                    Debug.Log(hit.collider.tag);
+                }
 
-	}
+                if (isGrounded)
+                {
+                    rigid.AddForce(new Vector2(0, jump), ForceMode2D.Force);
+                }
+            }
+            
+        }
+    }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -72,8 +95,10 @@ public class PlayerMovement : MonoBehaviour {
         }
     }
 
+
     public void ExampleDealDamage()
     {
 
     }
+
 }

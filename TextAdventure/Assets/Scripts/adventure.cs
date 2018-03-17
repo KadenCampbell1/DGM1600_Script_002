@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+
 public class adventure : MonoBehaviour 
 {
     /*
@@ -243,6 +245,7 @@ public class adventure : MonoBehaviour
 
         else
         {
+            background.emptyNumber = 10;
             titleObject.text = "You've Escaped!";
             textObject.text = "You used the key to unlock the Door. \n" +
                 "You have exited the living room and ran out the front door. \n" +
@@ -418,6 +421,7 @@ public class adventure : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W)) { myLocation = Location.window; }
     }
 
+
     // Update is called once per frame
     void Update()
     {
@@ -521,6 +525,7 @@ public class adventure : MonoBehaviour
         {
             if (venusStatue == false)
             {
+                background.emptyNumber = 11;
                 titleObject.text = "Game Over";
                 textObject.text = "The murderer has entered the room. \n" +
                     "You are dead.";
@@ -528,6 +533,7 @@ public class adventure : MonoBehaviour
 
             else if (venusStatue == true)
             {
+                background.emptyNumber = 10;
                 titleObject.text = "You've Escaped!";
                 textObject.text = "The murderer has entered the room, however you have the Venus Statue. \n" +
                     "You smash it over their head and get away.\n" +
@@ -543,8 +549,7 @@ public class adventure : MonoBehaviour
                 textObject.text = "The murderer has entered the room. \n" +
                     "You are dead.";
             }
-            */
-            /*
+           
             else if (key == true)
             {
                 titleObject.text = "You've Escaped!";

@@ -120,7 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b6f4c9eb0261d246b89e2bf244e114c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSound: {fileID: 8300000, guid: 0f5a4f4c69e96f14da1e3262d14db06e, type: 3}
+  hitSound: {fileID: 8300000, guid: ee3482b594dc0d146b06d2c8b73bc3d5, type: 3}
   startVector: {x: 200, y: 200}
 --- !u!198 &198681278644351664
 ParticleSystem:

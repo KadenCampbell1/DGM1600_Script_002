@@ -391,6 +391,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   jump: 400
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  shootDistance: 0
 --- !u!95 &1345616428
 Animator:
   serializedVersion: 3

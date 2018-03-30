@@ -5,30 +5,21 @@ using UnityEngine;
 public class Health : MonoBehaviour {
 
     public int health;
-    public ParticleSystem deathParticle;
+    
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void IncrementHealth(int amount)
     {
-        Debug.Log("collided");
-        health--;
-        if(health <= 0)
+        health += amount;
+        if (health <= 0)
         {
-            //die
-            //play death particle
-            Instantiate(deathParticle, gameObject.transform.position, Quaternion.identity);
-
-            //destroy this gameobject
-            Destroy(gameObject);
+            //do something
+            Die();
         }
     }
+
+    public void Die()
+    {
+        Destroy(gameObject);
+    }
+    
 }

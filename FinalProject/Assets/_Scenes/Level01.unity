@@ -394,6 +394,7 @@ GameObject:
   - component: {fileID: 1345616426}
   - component: {fileID: 1345616425}
   - component: {fileID: 1345616428}
+  - component: {fileID: 1345616429}
   m_Layer: 9
   m_Name: Player
   m_TagString: Untagged
@@ -525,6 +526,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1345616429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1345616422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2477ae6911135f243907e67015a98b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
 --- !u!1 &1595677501
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,6 +549,7 @@ GameObject:
   - component: {fileID: 1595677502}
   - component: {fileID: 1595677504}
   - component: {fileID: 1595677505}
+  - component: {fileID: 1595677506}
   m_Layer: 10
   m_Name: Pot
   m_TagString: Untagged
@@ -610,8 +624,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
-  deathParticle: {fileID: 198389551933277676, guid: 5d15f3225b0e2084fa8d6f628cfea94e,
-    type: 2}
 --- !u!61 &1595677505
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -637,6 +649,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6666667, y: 0.73333335}
   m_EdgeRadius: 0
+--- !u!114 &1595677506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1595677501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 365e1478076655649bcc3e4a49c5a4fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthScript: {fileID: 0}
+  deathParticle: {fileID: 198389551933277676, guid: 5d15f3225b0e2084fa8d6f628cfea94e,
+    type: 2}
 --- !u!1 &1712605858
 GameObject:
   m_ObjectHideFlags: 0

@@ -35,4 +35,17 @@ public class PowerUp : MonoBehaviour {
                 break;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        switch (powerUpType)
+        {
+            case Power.Health:
+                collider.GetComponent<Health>().IncrementHealth(5);
+                break;
+            case Power.Speed:
+                break;
+        }
+        Destroy(gameObject);
+    }
 }

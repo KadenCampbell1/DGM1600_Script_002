@@ -236,7 +236,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &746027653
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -509,6 +509,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   shootDistance: 0
+  minDistance: 0.1
+  maxDistance: 5
 --- !u!95 &1345616428
 Animator:
   serializedVersion: 3
@@ -538,6 +540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
+  deathParticle: {fileID: 0}
 --- !u!1 &1595677501
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,6 +627,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 1
+  deathParticle: {fileID: 198389551933277676, guid: 5d15f3225b0e2084fa8d6f628cfea94e,
+    type: 2}
 --- !u!61 &1595677505
 BoxCollider2D:
   m_ObjectHideFlags: 0

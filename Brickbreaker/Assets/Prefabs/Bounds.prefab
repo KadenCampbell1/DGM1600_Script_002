@@ -69,6 +69,7 @@ GameObject:
   - component: {fileID: 4852644153907272}
   - component: {fileID: 61957159724621744}
   - component: {fileID: 114309103411348304}
+  - component: {fileID: 114468778988156152}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -130,7 +131,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1072558753269682}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 8, y: 4.5, z: 0}
+  m_LocalPosition: {x: 9.4, y: 4.5, z: 0}
   m_LocalScale: {x: 9.935322, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4647758201291594}
@@ -143,7 +144,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1667613982862056}
   m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
-  m_LocalPosition: {x: -7.44, y: 9.17, z: 0}
+  m_LocalPosition: {x: -8.7, y: 9.3, z: 0}
   m_LocalScale: {x: 2.9365003, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4647758201291594}
@@ -169,7 +170,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1118692206559948}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -8, y: 4.5, z: 0}
+  m_LocalPosition: {x: -9.4, y: 4.5, z: 0}
   m_LocalScale: {x: 9.935322, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4647758201291594}
@@ -214,7 +215,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1479217081647554}
   m_LocalRotation: {x: 0, y: 0, z: -0.38268343, w: 0.92387956}
-  m_LocalPosition: {x: 7.44, y: 9.17, z: 0}
+  m_LocalPosition: {x: 8.7, y: 9.3, z: 0}
   m_LocalScale: {x: 2.936502, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4647758201291594}
@@ -371,6 +372,18 @@ BoxCollider2D:
   m_Size: {x: 20.32287, y: 3.2500515}
   m_EdgeRadius: 0
 --- !u!114 &114309103411348304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239198581224974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74ef4429ce0d5584fbc904ae3c8855ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theGameManager: {fileID: 0}
+--- !u!114 &114468778988156152
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Collectibles : MonoBehaviour {
 
+    [Range(1, 50)]
     public int value;
     public Color colorTint;
     private GameObject manager;

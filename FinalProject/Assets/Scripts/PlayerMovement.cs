@@ -19,7 +19,10 @@ public class PlayerMovement : MonoBehaviour {
     public float shootDistance;
     public float minDistance;
     public float maxDistance;
+    public float shootTime;
     private bool lookLeft;
+    public Color shootColor;
+    private LineRenderer lineRenderer;
 
 	// Use this for initialization
 	void Start ()
@@ -27,6 +30,7 @@ public class PlayerMovement : MonoBehaviour {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
+        lineRenderer = GetComponent<LineRenderer>();
 	}
 	
 	// Update is called once per frame
@@ -115,13 +119,18 @@ public class PlayerMovement : MonoBehaviour {
         {
             direction = Vector2.left;
             position += new Vector2(-0.5f, 0);
+            lineRenderer.SetPosition(0, new Vector3(-0.5f, 0, 0));
+            lineRenderer.SetPosition(1, new Vector3(-10.5f, 0, 0));
         }
         else
         {
             direction = Vector2.right;
             position += new Vector2(0.5f, 0);
+            lineRenderer.SetPosition(0, new Vector3(0.5f, 0, 0));
+            lineRenderer.SetPosition(1, new Vector3(10.5f, 0, 0));
         }
         Debug.DrawRay(position, direction, Color.red, 0.25f);
+        lineRenderer.enabled = true;
         RaycastHit2D hit = Physics2D.Raycast(position, direction, shootDistance);
         if (hit.collider != null)
         {
@@ -132,7 +141,14 @@ public class PlayerMovement : MonoBehaviour {
                 hit.collider.GetComponent<Health>().IncrementHealth(-1);
             }
         }
+        StartCoroutine(LazerOff());
 
+    }
+
+    IEnumerator LazerOff()
+    {
+        yield return new WaitForSeconds(shootTime);
+        lineRenderer.enabled = false;
     }
 /*
     void OnCollisionEnter2D(Collision2D collision)
@@ -158,3 +174,6 @@ public class PlayerMovement : MonoBehaviour {
     }
 
 }
+
+
+// use raycast and bool return type to check for doors when you push up in hallways

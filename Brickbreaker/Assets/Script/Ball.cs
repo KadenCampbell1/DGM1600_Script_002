@@ -5,8 +5,9 @@ using UnityEngine;
 public class Ball : MonoBehaviour {
 
 
-    public AudioClip hitSound;
+    public AudioClip[] hitChoice;
     public Vector2 startVector;
+    public int hitNumber = 0;
 
     private void Start()
     {
@@ -15,9 +16,13 @@ public class Ball : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        AudioSource.PlayClipAtPoint(hitSound, new Vector3(0, 0, 0));
+        AudioSource.PlayClipAtPoint(hitChoice[hitNumber], new Vector3(0, 0, 0));
 
-
+        hitNumber++;        //this line might have to be incremented and subtracted by one to get the correct number to play 
+        if(hitNumber >= 3)                      //the number 3 is the amount of hit sounds there are
+        {
+            hitNumber = 0;
+        }
     }
 
 }

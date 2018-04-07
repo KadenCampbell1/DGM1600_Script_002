@@ -19,7 +19,7 @@ public class Ball : MonoBehaviour {
         AudioSource.PlayClipAtPoint(hitChoice[hitNumber], new Vector3(0, 0, 0));
 
         hitNumber++;        //this line might have to be incremented and subtracted by one to get the correct number to play 
-        if(hitNumber >= 3)                      //the number 3 is the amount of hit sounds there are
+        if(hitNumber >= 56)                      //the number 3 is the amount of hit sounds there are
         {
             hitNumber = 0;
         }

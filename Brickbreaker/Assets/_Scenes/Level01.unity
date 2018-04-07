@@ -391,16 +391,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114121680868064384, guid: 50cd2602d815df54393d0504338fccc0,
-        type: 2}
-      propertyPath: hitchoice.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114121680868064384, guid: 50cd2602d815df54393d0504338fccc0,
-        type: 2}
-      propertyPath: hitChoice.Array.size
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4345626576486114, guid: 50cd2602d815df54393d0504338fccc0, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -433,36 +423,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 19
       objectReference: {fileID: 0}
-    - target: {fileID: 114121680868064384, guid: 50cd2602d815df54393d0504338fccc0,
-        type: 2}
-      propertyPath: hitchoice.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: ee3482b594dc0d146b06d2c8b73bc3d5, type: 3}
-    - target: {fileID: 114121680868064384, guid: 50cd2602d815df54393d0504338fccc0,
-        type: 2}
-      propertyPath: hitchoice.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: ee3482b594dc0d146b06d2c8b73bc3d5, type: 3}
-    - target: {fileID: 114121680868064384, guid: 50cd2602d815df54393d0504338fccc0,
-        type: 2}
-      propertyPath: hitchoice.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: ee3482b594dc0d146b06d2c8b73bc3d5, type: 3}
-    - target: {fileID: 114121680868064384, guid: 50cd2602d815df54393d0504338fccc0,
-        type: 2}
-      propertyPath: hitChoice.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: ee3482b594dc0d146b06d2c8b73bc3d5, type: 3}
-    - target: {fileID: 114121680868064384, guid: 50cd2602d815df54393d0504338fccc0,
-        type: 2}
-      propertyPath: hitChoice.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: ee3482b594dc0d146b06d2c8b73bc3d5, type: 3}
-    - target: {fileID: 114121680868064384, guid: 50cd2602d815df54393d0504338fccc0,
-        type: 2}
-      propertyPath: hitChoice.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: ee3482b594dc0d146b06d2c8b73bc3d5, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 50cd2602d815df54393d0504338fccc0, type: 2}
   m_IsPrefabParent: 0

@@ -7,16 +7,20 @@ using UnityEngine;
 public class PowerUp : MonoBehaviour {
 
 
-    public enum Power { Health, Speed};
+    public enum Power { Health, Speed, Damage};
     public Power powerUpType;
     private SpriteRenderer rend;
     public Sprite[] images;
-
+    public bool random;
 
 	// Use this for initialization
 	private void Start ()
     {
         rend = GetComponent<SpriteRenderer>();
+        if (random)
+        {
+            powerUpType = (Power)(Random.Range(0, 2));
+        }
         
 	}
 	
@@ -33,6 +37,9 @@ public class PowerUp : MonoBehaviour {
                 //do some other stuff
                 rend.sprite = images[1];
                 break;
+            case Power.Damage:
+                rend.sprite = images[2];
+                break;
         }
     }
 
@@ -44,6 +51,8 @@ public class PowerUp : MonoBehaviour {
                 collider.GetComponent<Health>().IncrementHealth(5);
                 break;
             case Power.Speed:
+                break;
+            case Power.Damage:
                 break;
         }
         Destroy(gameObject);

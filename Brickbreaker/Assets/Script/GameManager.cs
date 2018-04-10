@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour {
     // Use this for initialization
     void Awake()
     {
+        Screen.fullScreen = !Screen.fullScreen;
         if (instance == null)                               //if instance is not assigned
         {                                                   //then assign instance to this object
             instance = this;

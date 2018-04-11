@@ -6,11 +6,25 @@ using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour {
 
+    private static Manager instance = null;
     public Text scoreboard;
     private int score;
     public Text levelDisplay;
     public Text livesDisplay;
     public int lives;
+
+    public void Awake()
+    {
+        if(instance == null)
+        {
+            instance = this.gameObject.GetComponent<Manager>();
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+        DontDestroyOnLoad(gameObject);
+    }
 
     public void IncrementScore(int value)
     {
@@ -23,6 +37,12 @@ public class Manager : MonoBehaviour {
         SceneManager.LoadScene(level);
 
         Debug.Log(MultiplyTwoFloats(3.5f, 2.6f));
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Quit Game");
     }
 	
 

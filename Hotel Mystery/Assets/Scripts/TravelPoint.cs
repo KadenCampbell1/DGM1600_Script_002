@@ -39,10 +39,10 @@ public class TravelPoint : MonoBehaviour {
         switch (myLocation)
         {
             case Location.Lobby:
-                button1Text.text = "Floor 1";                                   //still trying to fix buttons to switch to different loadlevels
+                button1Text.text = "Floor 1";                                   //manually make buttons on each level instead of changing them through code
                 button2Text.text = "Floor 2";
                 button3Text.text = "Floor 3";
-                levelManger = "Level02";
+           //     levelManger = "Level02";                                      //brackeys
                 break;
             case Location.Floor1:
                 button1Text.text = "Lobby";

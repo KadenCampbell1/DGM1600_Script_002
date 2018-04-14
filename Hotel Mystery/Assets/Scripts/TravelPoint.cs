@@ -19,7 +19,7 @@ public class TravelPoint : MonoBehaviour {
     public Button myButton3;
 
 
-    private void Start()
+    private void Awake()
     {
         theManager = FindObjectOfType<Manager>();
         theCanvas = FindObjectOfType<Canvas>();

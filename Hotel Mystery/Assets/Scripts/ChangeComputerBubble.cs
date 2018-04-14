@@ -54,7 +54,7 @@ public class ChangeComputerBubble : MonoBehaviour {
         {
             textBubble.text = "There was a murder in the center of your lobby.\n" +
                 "It is disturbing me... Could you take my stuff up to my room and report back?\n" +
-                "There will be a reward in it for you." +
+                "There will be a reward in it for you.\n" +
                 "It is room 110.\n" +
                 "I want to get to there as soon as possible.";
 
@@ -64,7 +64,7 @@ public class ChangeComputerBubble : MonoBehaviour {
 
         if (textNumber == 1)
         {
-            textBubble.text = "Thank you for coming over./n" +
+            textBubble.text = "Thank you for coming over.\n" +
                 "My LUGGAGE is pretty heavy and I can't move it.\n" +
                 "Could you take it to room 303 and report back.";
 

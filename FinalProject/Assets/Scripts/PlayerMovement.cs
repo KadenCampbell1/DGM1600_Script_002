@@ -15,14 +15,9 @@ public class PlayerMovement : MonoBehaviour {
     public float jump;
     private bool isGrounded;
     public LayerMask groundLayer;
-    [Space(10), Header("Shooting Stuff")]
-    public float shootDistance;
-    public float minDistance;
-    public float maxDistance;
-    public float shootTime;
-    private bool lookLeft;
-    public Color shootColor;
-    private LineRenderer lineRenderer;
+    private Shooting shooting;
+
+    
 
 	// Use this for initialization
 	void Start ()
@@ -30,7 +25,8 @@ public class PlayerMovement : MonoBehaviour {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
-        lineRenderer = GetComponent<LineRenderer>();
+        shooting = GetComponent<Shooting>();
+
 	}
 	
 	// Update is called once per frame
@@ -46,26 +42,21 @@ public class PlayerMovement : MonoBehaviour {
         {
             //flip sprite renderer
             rend.flipX = true;
-            lookLeft = true;
         }
         else if (Input.GetAxisRaw("Horizontal") > 0.1f)
         {
             //unflip
             rend.flipX = false;
-            lookLeft = false;
         }
 
-        if (Input.GetButton("Fire1"))
-        {
-            anim.SetTrigger("ShootGo");
-            Shoot();
-        }
-        /*
+        
+/*
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
             rigid.AddForce(new Vector2(0, jump), ForceMode2D.Force);
         }
-        */
+*/
+
         if (Input.GetButtonDown("Jump"))
         {
 /*
@@ -110,46 +101,9 @@ public class PlayerMovement : MonoBehaviour {
         return false;
     }
 
-    void Shoot()
-    {
-        Vector2 position = transform.position;
-        //figure out direction
-        Vector2 direction;
-        if (lookLeft)
-        {
-            direction = Vector2.left;
-            position += new Vector2(-0.5f, 0);
-            lineRenderer.SetPosition(0, new Vector3(-0.5f, 0, 0));
-            lineRenderer.SetPosition(1, new Vector3(-10.5f, 0, 0));
-        }
-        else
-        {
-            direction = Vector2.right;
-            position += new Vector2(0.5f, 0);
-            lineRenderer.SetPosition(0, new Vector3(0.5f, 0, 0));
-            lineRenderer.SetPosition(1, new Vector3(10.5f, 0, 0));
-        }
-        Debug.DrawRay(position, direction, Color.red, 0.25f);
-        lineRenderer.enabled = true;
-        RaycastHit2D hit = Physics2D.Raycast(position, direction, shootDistance);
-        if (hit.collider != null)
-        {
-            //deal damage
-            Debug.Log(hit.collider.name);
-            if (hit.collider.GetComponent<Health>())
-            {
-                hit.collider.GetComponent<Health>().IncrementHealth(-1);
-            }
-        }
-        StartCoroutine(LazerOff());
+   
 
-    }
-
-    IEnumerator LazerOff()
-    {
-        yield return new WaitForSeconds(shootTime);
-        lineRenderer.enabled = false;
-    }
+   
 /*
     void OnCollisionEnter2D(Collision2D collision)
     {

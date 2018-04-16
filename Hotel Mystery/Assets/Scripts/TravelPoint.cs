@@ -22,7 +22,7 @@ public class TravelPoint : MonoBehaviour {
     private void Awake()
     {
         theManager = FindObjectOfType<Manager>();
-        theCanvas = FindObjectOfType<Canvas>();
+        theCanvas = GameObject.Find("Canvas").GetComponent<Canvas>();               //finds object by name
         theCanvas.enabled = false;
         
         /*

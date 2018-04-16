@@ -7,7 +7,7 @@ public class Collectibles : MonoBehaviour {
     [Range(1, 50)]
     public int value;
     public Color colorTint;
-    private GameObject manager;
+   // private GameObject manager;
     private Manager myManager;
 
     private void Start()

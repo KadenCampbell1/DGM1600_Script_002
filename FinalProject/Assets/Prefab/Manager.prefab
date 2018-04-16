@@ -52,6 +52,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreboard: {fileID: 0}
-  levelDisplay: {fileID: 0}
-  livesDisplay: {fileID: 0}
+  levelDisplay: {fileID: 114766033338020928, guid: 0ce143d47de4789428163644bd2930ef,
+    type: 2}
+  livesDisplay: {fileID: 114171922016575530, guid: 0ce143d47de4789428163644bd2930ef,
+    type: 2}
   lives: 0

@@ -36,6 +36,7 @@ public class TravelPoint : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+/*
         switch (myLocation)
         {
             case Location.Lobby:
@@ -60,6 +61,7 @@ public class TravelPoint : MonoBehaviour {
                 button3Text.text = "Floor 2";
                 break;
         }
+*/
         theCanvas.enabled = true;
 
         theManager.LoadLevel(levelManger);

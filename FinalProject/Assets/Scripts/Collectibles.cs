@@ -21,6 +21,16 @@ public class Collectibles : MonoBehaviour {
         Destroy(gameObject);
     }
 
+    private void OnCollisionEnter2D(Collision2D collider)
+    {
+        if (collider.gameObject.CompareTag("Player"))
+        {
+            myManager.IncrementScore(value);
+            Destroy(gameObject);
+        }
+        
+    }
+
 
 
 }

@@ -1,0 +1,922 @@
+fileFormatVersion: 2
+guid: c3875c3bbba314e47ae67eb65d5b002c
+timeCreated: 1524113975
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WhiteToupeeWalk_Down1
+    21300002: WhiteToupeeWalk_Down2
+    21300004: WhiteToupeeWalk_Down3
+    21300006: WhiteToupeeWalk_Down4
+    21300008: WhiteToupeeWalk_Down5
+    21300010: WhiteToupeeWalk_Down6
+    21300012: WhiteToupeeWalk_Down7
+    21300014: WhiteToupeeWalk_Down8
+    21300016: WhiteToupeeWalk_Up1
+    21300018: WhiteToupeeWalk_Up2
+    21300020: WhiteToupeeWalk_Up3
+    21300022: WhiteToupeeWalk_Up4
+    21300024: WhiteToupeeWalk_Up5
+    21300026: WhiteToupeeWalk_Up6
+    21300028: WhiteToupeeWalk_Up7
+    21300030: WhiteToupeeWalk_Up8
+    21300032: WhiteToupeeWalk_Side1
+    21300034: WhiteToupeeWalk_Side2
+    21300036: WhiteToupeeWalk_Side3
+    21300038: WhiteToupeeWalk_Side4
+    21300040: WhiteToupeeWalk_Side5
+    21300042: WhiteToupeeWalk_Side6
+    21300044: WhiteToupeeWalk_Side7
+    21300046: WhiteToupeeWalk_Side8
+    21300048: WhiteToupeeWalk_DiagDownRight1
+    21300050: WhiteToupeeWalk_DiagDownRight2
+    21300052: WhiteToupeeWalk_DiagDownRight3
+    21300054: WhiteToupeeWalk_DiagDownRight4
+    21300056: WhiteToupeeWalk_DiagDownRight5
+    21300058: WhiteToupeeWalk_DiagDownRight6
+    21300060: WhiteToupeeWalk_DiagDownRight7
+    21300062: WhiteToupeeWalk_DiagDownRight8
+    21300064: WhiteToupeeWalk_DiagDownLeft1
+    21300066: WhiteToupeeWalk_DiagDownLeft2
+    21300068: WhiteToupeeWalk_DiagDownLeft3
+    21300070: WhiteToupeeWalk_DiagDownLeft4
+    21300072: WhiteToupeeWalk_DiagDownLeft5
+    21300074: WhiteToupeeWalk_DiagDownLeft6
+    21300076: WhiteToupeeWalk_DiagDownLeft7
+    21300078: WhiteToupeeWalk_DiagDownLeft8
+    21300080: WhiteToupeeWalk_DiagUpRight1
+    21300082: WhiteToupeeWalk_DiagUpRight2
+    21300084: WhiteToupeeWalk_DiagUpRight3
+    21300086: WhiteToupeeWalk_DiagUpRight4
+    21300088: WhiteToupeeWalk_DiagUpRight5
+    21300090: WhiteToupeeWalk_DiagUpRight6
+    21300092: WhiteToupeeWalk_DiagUpRight7
+    21300094: WhiteToupeeWalk_DiagUpRight8
+    21300096: WhiteToupeeWalk_DiagUpLeft1
+    21300098: WhiteToupeeWalk_DiagUpLeft2
+    21300100: WhiteToupeeWalk_DiagUpLeft3
+    21300102: WhiteToupeeWalk_DiagUpLeft4
+    21300104: WhiteToupeeWalk_DiagUpLeft5
+    21300106: WhiteToupeeWalk_DiagUpLeft6
+    21300108: WhiteToupeeWalk_DiagUpLeft7
+    21300110: WhiteToupeeWalk_DiagUpLeft8
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 15
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Down1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 205
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Down2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 204
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Down3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 205
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Down4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 205
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Down5
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 205
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Down6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 204
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Down7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 205
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Down8
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 205
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Up1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 176
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Up2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 175
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Up3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 176
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Up4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 176
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Up5
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 176
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Up6
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 175
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Up7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 176
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Up8
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 176
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Side1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 150
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Side2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 149
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Side3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 150
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Side4
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 149
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Side5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 150
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Side6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 149
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Side7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 149
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_Side8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 149
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownRight1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 120
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownRight2
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 119
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownRight3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 120
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownRight4
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 119
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownRight5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 120
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownRight6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 119
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownRight7
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 119
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownRight8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 119
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownLeft1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 94
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownLeft2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 93
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownLeft3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 94
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownLeft4
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 93
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownLeft5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 94
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownLeft6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 93
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownLeft7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 93
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagDownLeft8
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 93
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpRight1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 66
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpRight2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 65
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpRight3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 66
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpRight4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 65
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpRight5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 66
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpRight6
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 65
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpRight7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 65
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpRight8
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 65
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpLeft1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 32
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpLeft2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 31
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpLeft3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 32
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpLeft4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 31
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpLeft5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 32
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpLeft6
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 31
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpLeft7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 31
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WhiteToupeeWalk_DiagUpLeft8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 30
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

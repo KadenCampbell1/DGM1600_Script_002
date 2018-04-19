@@ -4,10 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class TravelPoint : MonoBehaviour {
-
+/*
     private Manager theManager;
     private string levelManger;
-    public Canvas theCanvas;
     public Text button1Text;
     public Text button2Text;
     public Text button3Text;
@@ -17,11 +16,12 @@ public class TravelPoint : MonoBehaviour {
     public Button myButton1;
     public Button myButton2;
     public Button myButton3;
-
+*/
+    public Canvas theCanvas;
 
     private void Awake()
     {
-        theManager = FindObjectOfType<Manager>();
+//        theManager = FindObjectOfType<Manager>();
         theCanvas = GameObject.Find("Canvas").GetComponent<Canvas>();               //finds object by name
         theCanvas.enabled = false;
         
@@ -64,7 +64,7 @@ public class TravelPoint : MonoBehaviour {
 */
         theCanvas.enabled = true;
 
-        theManager.LoadLevel(levelManger);
+//        theManager.LoadLevel(levelManger);
     }
 
     private void OnTriggerExit2D(Collider2D collision)

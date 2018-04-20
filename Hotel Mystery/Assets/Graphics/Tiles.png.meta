@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: e682baeb3659fd14481c8014eaa7459b
-timeCreated: 1524123498
-licenseType: Free
+timeCreated: 1524238034
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: Tiles_Blue
@@ -12,6 +12,8 @@ TextureImporter:
     21300010: Tiles_DesignDiamond
     21300012: Tiles_DiamondAlone
     21300014: Tiles_Corner2
+    21300016: Tile_BlueCover
+    21300018: Tiles_LightBlueCover
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -188,6 +190,34 @@ TextureImporter:
         y: 22
         width: 18
         height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tile_BlueCover
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Tiles_LightBlueCover
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 33
+        width: 2
+        height: 2
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

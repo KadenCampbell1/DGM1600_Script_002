@@ -8,11 +8,15 @@ public class BossTest : MonoBehaviour {
     public Manager myManager;
     public Text myText;
     public bool isStrong;
-    public string Level;
+    public GameObject testBound;
+    //public string Level;
 
     private void Start()
     {
         myManager = FindObjectOfType<Manager>();
+        testBound = GameObject.Find("Test Bound");
+
+        testBound.GetComponent<Collider2D>().isTrigger = true;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -24,8 +28,16 @@ public class BossTest : MonoBehaviour {
         else
         {
             myText.text = "You are not powerful enough to enter. Help out more customers.";
-            myManager.LoadLevel(Level);
+            //myManager.LoadLevel("Level03");
+            testBound.GetComponent<Collider2D>().isTrigger = false;
         }
         
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        myText.text = "";
+
+        testBound.GetComponent<Collider2D>().isTrigger = true;
     }
 }

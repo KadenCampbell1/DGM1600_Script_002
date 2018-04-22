@@ -67,9 +67,9 @@ public class ChangeComputerBubble : MonoBehaviour {
         {
             textBubble.text = "There was a murder in the center of your lobby.\n" +
                 "It is disturbing me... Could you take my stuff up to my room and report back?\n" +
-                "There will be a reward in it for you.\n" +
-                "It is room 110.\n" +
-                "I want to get out of here as soon as possible.";
+                "There will be a reward in it for you. " +
+                "It is room 105.\n" +
+                "The elevators are at the top of the room past the dead body.";
 
             //drop item that corrisponds to first computer and check for variable deservesReward to drop money
             // purse
@@ -90,7 +90,7 @@ public class ChangeComputerBubble : MonoBehaviour {
         if (textNumber == 2)
         {
             textBubble.text = "If you would go and take my BACKPACK to my room.\n" +
-                "It is room 207. Come back after and I'll reward you.";
+                "It is room 205. Come back after and I'll reward you.";
 
             //drop item that corrisponds to first computer and check for variable deservesReward to drop money
             //Backpack
@@ -99,7 +99,7 @@ public class ChangeComputerBubble : MonoBehaviour {
         if (textNumber == 3)
         {
             textBubble.text = "Ah, Lobby boy, I have don't have enough hands.\n" +
-                "Would you mind carrying my BRIEFCASE to room 207 and let me know when it is done?";
+                "Would you mind carrying my BRIEFCASE to room 205 and let me know when it is done?";
 
             //drop item that corrisponds to first computer and check for variable deservesReward to drop money
             //check if it is done when they enter to change text then when they leave change to a "finished" text that doesn't change (maybe disable the 2dcolider)
@@ -119,8 +119,8 @@ public class ChangeComputerBubble : MonoBehaviour {
 
         if (textNumber == 5)
         {
-            textBubble.text = "Oh good, Lobby boy, my room is 305.\n" +
-                "Would you mind taking my BOOK to my room\n" +
+            textBubble.text = "Oh good, Lobby boy, my room is 304.\n" +
+                "Would you mind taking my BOOK to my room" +
                 "and letting me know when you are done?\n" +
                 "I would like to leave until this is cleaned up.";
 
@@ -131,7 +131,7 @@ public class ChangeComputerBubble : MonoBehaviour {
         if (textNumber == 6)
         {
             textBubble.text = "Yo, Yo, Yo. Lobby boy I'm glad you shuffled over.\n" +
-                "I need you to run my BOARD up to my room. \n" +
+                "I need you to run my BOARD up to my room 203. \n" +
                 "If you hurry and then come back I'll give you a reward.";
 
             //drop item that corrisponds to first computer and check for variable deservesReward to drop money
@@ -152,7 +152,7 @@ public class ChangeComputerBubble : MonoBehaviour {
             textBubble.text = "Although he may be the creator, he is not telling the truth.\n" +
                 "The LANCE is not the ultimate weapon. I own the ultimate weapon.\n" +
                 "The LANCE only makes the game harder." +
-                "The WHITE TOUPEE is the actual weapon./n" +
+                "The WHITE TOUPEE is the actual weapon.\n" +
                 "Please take it on your journey.";
             //white toupee
         }

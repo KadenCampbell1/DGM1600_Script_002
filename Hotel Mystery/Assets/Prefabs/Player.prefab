@@ -23,9 +23,10 @@ GameObject:
   - component: {fileID: 114644171933224776}
   - component: {fileID: 50641374846633454}
   - component: {fileID: 61906997970877038}
+  - component: {fileID: 95416978218816364}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85,7 +86,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.43529412, g: 0.43529412, b: 0.43529412, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -124,7 +125,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 1.1
+  m_LinearDrag: 2.3
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: 15602132f3cce094c84a7ecd475505d0, type: 2}
@@ -171,6 +172,23 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1978635732942918}
   m_Enabled: 1
+--- !u!95 &95416978218816364
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1750541522666144}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2e6024dfa757149448a07d18686da67b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114644171933224776
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -182,7 +200,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dca7814e60aaebe4bb438d77d73b22ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 13
+  sideScroll: 0
 --- !u!124 &124333409138888500
 Behaviour:
   m_ObjectHideFlags: 1
@@ -221,7 +240,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 05357c4dff644ed4696a7c2e19ea4d48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

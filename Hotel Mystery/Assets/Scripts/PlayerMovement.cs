@@ -14,8 +14,11 @@ public class PlayerMovement : MonoBehaviour {
     public Health healthScript;
     public ItemDamageOutput itemDamage;
 
+    public List<GameObject> items; 
+
     private void Start()
     {
+        
         sideScroll = false;
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
@@ -28,6 +31,7 @@ public class PlayerMovement : MonoBehaviour {
     }
     private void Update()
     {
+        Manager.instance.LoadData();    
         if (!sideScroll)
         {
             rigid.AddForce(new Vector2(Input.GetAxis("Horizontal") * speed, Input.GetAxis("Vertical") * speed), ForceMode2D.Force);
@@ -73,10 +77,14 @@ public class PlayerMovement : MonoBehaviour {
         {
             healthScript.Die();
         }
+
+        /*
         if (collider.gameObject.CompareTag("BossWeapon"))
         {
             healthScript.IncrementHealth(itemDamage.damage);
         }
+        */
     }
+
 
 }

@@ -36,6 +36,8 @@ public class TravelPoint : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
+      //  Manager.instance.SaveItems();
 /*
         switch (myLocation)
         {

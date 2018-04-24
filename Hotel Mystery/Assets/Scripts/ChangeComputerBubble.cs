@@ -7,10 +7,19 @@ public class ChangeComputerBubble : MonoBehaviour {
 
     public Text textBubble;
     public int textNumber;
+    public GameObject item;
 
     private void Start()
     {
-       if(textNumber == 0)
+        if(item != null)
+        {
+            item.GetComponent<Renderer>().enabled = false;
+            
+        }
+        
+        
+
+       if (textNumber == 0)
         {
             textBubble.text = "Excuse me, Lobby boy.";
         }
@@ -75,6 +84,15 @@ public class ChangeComputerBubble : MonoBehaviour {
             // purse
             // for good bye text make it say "thanks I'll be heading out then"
             // use enable and disable to control where things spawn in
+
+            if (item != null)
+            {
+                if(!item.GetComponent<ItemState>().isCarried)
+                {
+                    item.GetComponent<Renderer>().enabled = true;
+                }
+
+            }
         }
 
         if (textNumber == 1)

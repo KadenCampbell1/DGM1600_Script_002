@@ -85,6 +85,8 @@
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\IsSideScroller.cs" />
     <Compile Include="Assets\Scripts\ItemDamageOutput.cs" />
+    <Compile Include="Assets\Scripts\ItemState.cs" />
+    <Compile Include="Assets\Scripts\ItemStatistics.cs" />
     <Compile Include="Assets\Scripts\Manager.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\TravelPoint.cs" />

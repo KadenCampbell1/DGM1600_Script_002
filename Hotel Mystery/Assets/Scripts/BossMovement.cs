@@ -18,7 +18,7 @@ public class BossMovement : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collider)
     {
-        if(collider.gameObject.CompareTag("Weapon"))
+        if(collider.gameObject.CompareTag("Item"))
         healthScript.IncrementHealth(itemDamage.damage);
 
         //needs to access the other object

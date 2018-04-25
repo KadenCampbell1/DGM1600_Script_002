@@ -531,4 +531,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc670c33e2d1c8a4ea3d43901f02a562, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textBubbleCanvas: {fileID: 0}
+  textBubbleCanvas: {fileID: 223561562475380062, guid: 3c1f7b36637543e4592635b9599198dc,
+    type: 2}

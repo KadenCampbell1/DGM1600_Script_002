@@ -126,7 +126,6 @@ public class NPCSpeechBubbles : MonoBehaviour
                 textBubble.text = "Will you take my PURSE to my room? \n" +
                     "It is room 200 just straight ahead. \n" +
                     "It will make you faster.\n" +
-                    "You only have 3 ''Falls'' to get to my room or you FAIL." +
                     "Thanks Lobby boy";
                 break;
             case npcLevel.Level02:

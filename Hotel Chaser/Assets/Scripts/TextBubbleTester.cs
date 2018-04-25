@@ -1,15 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TextBubbleTester : MonoBehaviour {
 
     public Canvas textBubbleCanvas;
 
+
     void Awake()
     {
-        textBubbleCanvas = GameObject.Find("Player Speech Canvas").GetComponent<Canvas>();               //finds object by name
-        textBubbleCanvas.enabled = false;
+
+        textBubbleCanvas = GameObject.Find("PlayerSpeechCanvas").GetComponent<Canvas>();               //finds object by name
+        //textBubbleCanvas.enabled = false;
     }
 
 

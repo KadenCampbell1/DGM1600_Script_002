@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 78f15e4ead50d7f4787926d55e34929c
-timeCreated: 1524625077
-licenseType: Free
+timeCreated: 1524669971
+licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: Cart
+    21300002: Crack
+    21300004: rug
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -83,6 +85,34 @@ TextureImporter:
         y: 22
         width: 41
         height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Crack
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 84
+        width: 11
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: rug
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 92
+        width: 42
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

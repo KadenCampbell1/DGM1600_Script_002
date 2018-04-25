@@ -1,0 +1,982 @@
+fileFormatVersion: 2
+guid: 833675417527e4f48aecb6ef78a06a0a
+timeCreated: 1524619014
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CharacterWalk_Down1
+    21300002: CharacterWalk_Down2
+    21300004: CharacterWalk_Down3
+    21300006: CharacterWalk_Down4
+    21300008: CharacterWalk_Down5
+    21300010: CharacterWalk_Down6
+    21300012: CharacterWalk_Down7
+    21300014: CharacterWalk_Down8
+    21300016: CharacterWalk_Up1
+    21300018: CharacterWalk_Up2
+    21300020: CharacterWalk_Up3
+    21300022: CharacterWalk_Up4
+    21300024: CharacterWalk_Up5
+    21300026: CharacterWalk_Up6
+    21300028: CharacterWalk_Up7
+    21300030: CharacterWalk_Up8
+    21300032: CharacterWalk_Side1
+    21300034: CharacterWalk_Side2
+    21300036: CharacterWalk_Side3
+    21300038: CharacterWalk_Side4
+    21300040: CharacterWalk_Side5
+    21300042: CharacterWalk_Side6
+    21300044: CharacterWalk_Side7
+    21300046: CharacterWalk_Side8
+    21300048: CharacterWalk_DiagDown1
+    21300050: CharacterWalk_DiagDown2
+    21300052: CharacterWalk_DiagDown3
+    21300054: CharacterWalk_DiagDown4
+    21300056: CharacterWalk_DiagDown5
+    21300058: CharacterWalk_DiagDown6
+    21300060: CharacterWalk_DiagDown7
+    21300062: CharacterWalk_DiagDown8
+    21300064: CharacterWalk_DiagUp1
+    21300066: CharacterWalk_DiagUp2
+    21300068: CharacterWalk_DiagUp3
+    21300070: CharacterWalk_DiagUp4
+    21300072: CharacterWalk_DiagUp5
+    21300074: CharacterWalk_DiagUp6
+    21300076: CharacterWalk_DiagUp7
+    21300078: CharacterWalk_DiagUp8
+    21300080: Boss0
+    21300082: Boss1
+    21300084: Boss2
+    21300086: Boss3
+    21300088: Item_Money
+    21300090: Item_Briefcase
+    21300092: Item_Suit
+    21300094: Item_Skateboard
+    21300096: Item_Purse
+    21300098: Item_Luggage
+    21300100: Item_Backpack
+    21300102: Item_Book
+    21300104: Item_BookTop
+    21300106: NPC_1
+    21300108: NPC_2
+    21300110: NPC_3
+    21300112: NPC_4
+    21300114: NPC_5
+    21300116: NPC_6
+    21300118: NPC_7
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 15
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharacterWalk_Down1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 232
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Down2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 231
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Down3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 232
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Down4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 232
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Down5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 232
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Down6
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 231
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Down7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 232
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Down8
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 232
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Up1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 203
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Up2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 202
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Up3
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 203
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Up4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 203
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Up5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 203
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Up6
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 202
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Up7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 203
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Up8
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 203
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Side1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 177
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Side2
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 176
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Side3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 177
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Side4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 176
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Side5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 177
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Side6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 176
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Side7
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 176
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_Side8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 176
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagDown1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 147
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagDown2
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 146
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagDown3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 147
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagDown4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 146
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagDown5
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 147
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagDown6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 146
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagDown7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 146
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagDown8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 146
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagUp1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 119
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagUp2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 118
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagUp3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 119
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagUp4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 118
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagUp5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 119
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagUp6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 118
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagUp7
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 118
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterWalk_DiagUp8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 118
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 14
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 191
+        width: 84
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 135
+        width: 93
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 67
+        width: 79
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Money
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 38
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Briefcase
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 43
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Suit
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 33
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Skateboard
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 15
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Purse
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 18
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Luggage
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 16
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Backpack
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_Book
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 19
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Item_BookTop
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 19
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NPC_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 78
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NPC_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 78
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NPC_3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 78
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NPC_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 78
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NPC_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 78
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NPC_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 78
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NPC_7
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 78
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

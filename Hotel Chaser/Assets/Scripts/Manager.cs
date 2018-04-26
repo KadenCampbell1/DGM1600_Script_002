@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Manager : MonoBehaviour {
 
     public static Manager instance = null;
+    public int score;
+    public Text scoreText;
 
     void Awake()
     {
@@ -24,6 +27,13 @@ public class Manager : MonoBehaviour {
         {
             Destroy(this.gameObject);                       //then destroy this object
         }
+    }
+
+
+    public void IncrementScore(int value)
+    {
+        score += value;
+        scoreText.text = "Score: " + score.ToString();
     }
 
     public void LoadLevel(string level)

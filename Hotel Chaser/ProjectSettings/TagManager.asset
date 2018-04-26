@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - DamageSurface
+  - Boss
+  - BubbleBound
+  - Item
+  - Money
   layers:
   - Default
   - TransparentFX
@@ -15,7 +20,7 @@ TagManager:
   - 
   - 
   - Ground
-  - 
+  - Particles
   - 
   - 
   - 
@@ -41,4 +46,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Particles
+    uniqueID: 258846395
+    locked: 0
+  - name: Ground
+    uniqueID: 757408249
     locked: 0

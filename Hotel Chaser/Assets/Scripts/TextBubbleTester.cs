@@ -16,13 +16,20 @@ public class TextBubbleTester : MonoBehaviour {
     }
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        textBubbleCanvas.enabled = true;
+        if (collider.gameObject.CompareTag("BubbleBound"))
+        {
+            textBubbleCanvas.enabled = true;
+        }
+        
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collider)
     {
-        textBubbleCanvas.enabled = false;
+        if (collider.gameObject.CompareTag("BubbleBound"))
+        {
+            textBubbleCanvas.enabled = false;
+        }
     }
 }

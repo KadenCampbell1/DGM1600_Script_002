@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 114118212369193804}
   m_Layer: 0
   m_Name: TextBubbleTester
-  m_TagString: Untagged
+  m_TagString: BubbleBound
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -163,8 +163,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1906738722361830}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -56, y: 48, z: 0}
-  m_LocalScale: {x: 121.08683, y: 181.80597, z: 0.99999994}
+  m_LocalPosition: {x: -56, y: 48, z: -10}
+  m_LocalScale: {x: 121.08683, y: 181.80597, z: 1}
   m_Children: []
   m_Father: {fileID: 4728700271556662}
   m_RootOrder: 4

@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private SpriteRenderer rend;
     public Health healthScript;
+    public Money moneyScript;
 
     // Use this for initialization
     void Start()
@@ -23,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
         healthScript = GetComponent<Health>();
+        moneyScript = FindObjectOfType<Money>().GetComponent<Money>();
     }
 
     // Update is called once per frame
@@ -101,5 +103,22 @@ public class PlayerMovement : MonoBehaviour
         {
             healthScript.Die();
         }
+
+        
     }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.gameObject.CompareTag("DamageSurface"))
+        {
+            healthScript.IncrementHealth(-1);
+        }
+
+        if (collider.gameObject.CompareTag("Money"))
+        {
+            //moneyScript.IncrementScore(1);
+        }
+
+    }
+
 }

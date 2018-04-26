@@ -141,21 +141,24 @@ public class NPCSpeechBubbles : MonoBehaviour
                 break;
             case npcLevel.Level04:
                 textBubble.text = "Ah, Lobby boy, I have don't have enough hands.\n" +
-               "Would you mind carrying my BRIEFCASE to room 203? It is just straight ahead.";
+               "Would you mind carrying my BRIEFCASE to room 203? It is just straight ahead.\n" +
+               "It will increase your jump height.";
                 break;
             case npcLevel.Level05:
                 textBubble.text = "Yo, Yo, Yo. Lobby boy I'm glad you shuffled over.\n" +
                 "I need you to run my BOARD to my room 206.\n" +
-                "It will change up the tunes.";
+                "It will make you really fast.";
                 break;
             case npcLevel.Level06:
                 textBubble.text = "Oh good, Lobby boy, my room is 205.\n" +
                 "Would you mind taking my BOOK to my room?" +
-                " It is just straight ahead.";
+                " It is just straight ahead.\n" +
+                "It will increase your speed and jump height.";
                 break;
             case npcLevel.Level07:
                 textBubble.text = "Can you take my SUIT to room 204? It is just staight ahead.\n" +
-                "I don't want it to wrinkle. Thanks my boy.";
+                "I don't want it to wrinkle. Thanks my boy.\n" +
+                "It will decrease your speed and jump height.";
                 break;
         }
 /*

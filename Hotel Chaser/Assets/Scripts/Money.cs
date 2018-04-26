@@ -5,22 +5,12 @@ using UnityEngine.UI;
 
 public class Money : MonoBehaviour {
 
-    public int score;
-    public Text scoreText;
+    private Manager myManager;
+    public int value;
 
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        IncrementScore(1);
-        Destroy(this.gameObject);
-    }
-
-
-
-    public void IncrementScore(int amount)
-    {
-        score += amount;
-
-        scoreText.text = "Money: " + score;
+        myManager.IncrementScore(value);
+        Destroy(gameObject);
     }
 }

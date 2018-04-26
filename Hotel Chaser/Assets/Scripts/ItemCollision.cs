@@ -11,7 +11,7 @@ public class ItemCollision : MonoBehaviour {
 
     private void Start()
     {
-        myNpcScript = GameObject.Find("NPC Computer").GetComponent<NPCSpeechBubbles>();
+        myNpcScript = GameObject.Find("NPCComputer").GetComponent<NPCSpeechBubbles>();
         itemRenderer = myNpcScript.item.GetComponent<Renderer>();       
     }
 

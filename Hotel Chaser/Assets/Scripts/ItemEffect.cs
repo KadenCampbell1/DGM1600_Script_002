@@ -12,7 +12,7 @@ public class ItemEffect : MonoBehaviour {
 	void Start () {
         npcScript = GameObject.Find("NPCComputer").GetComponent<NPCSpeechBubbles>();
         playerScript = GetComponent<PlayerMovement>();
-//        musicManager = GameObject.Find("Music Manager").GetComponent<MusicManager>();
+        musicManager = GameObject.Find("MusicManager").GetComponent<MusicManager>();
 	}
 
 
@@ -35,10 +35,12 @@ public class ItemEffect : MonoBehaviour {
                 break;
             case NPCSpeechBubbles.npcLevel.Level05:
                     playerScript.speed += 20;
+                    musicManager.Metal();
                 break;
             case NPCSpeechBubbles.npcLevel.Level06:
                     playerScript.speed += 5;
                     playerScript.jump += 100;
+                    musicManager.Jazz();
                 break;
             case NPCSpeechBubbles.npcLevel.Level07:
                     playerScript.speed -= 5;

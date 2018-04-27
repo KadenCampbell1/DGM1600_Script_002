@@ -147,7 +147,7 @@ public class NPCSpeechBubbles : MonoBehaviour
             case npcLevel.Level05:
                 textBubble.text = "Yo, Yo, Yo. Lobby boy, I'm glad you shuffled over.\n" +
                 "I need you to run my BOARD to my room--204.\n" +
-                "It will make you really fast.";
+                "It will make you really fast and switches the music to something a little more fitting. ";
                 break;
             case npcLevel.Level06:
                 textBubble.text = "Oh, good, Lobby boy, my room is 205.\n" +

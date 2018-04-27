@@ -39,11 +39,15 @@ public class MusicManager : MonoBehaviour {
     public void Jazz()
     {
         myAudioSource.clip = musicType[0];
+        myAudioSource.Play();
+        myAudioSource.volume = 0.5f;
     }
 
     public void Metal()
     {
         myAudioSource.clip = musicType[2];
+        myAudioSource.Play();
+        myAudioSource.volume = 0.2f;
     }
 
 

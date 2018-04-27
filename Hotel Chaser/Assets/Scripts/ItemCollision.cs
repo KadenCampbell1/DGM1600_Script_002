@@ -23,7 +23,6 @@ public class ItemCollision : MonoBehaviour {
 }
 
 
-// make them choose 3 items to take with them at the boss fight. 
-//stop the time and have each button add one to a 3 count and 
+
 //change a bool to be checked with if statements and when the count
 //is 3 hide the canvas and start the gametime. 

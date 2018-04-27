@@ -12,7 +12,7 @@ public class DialogueScript : MonoBehaviour {
     private void Start()
     {
         dialodueText.text = "Boss: Oh, Lobby Boy, how good to see you.";
-        // myManager = FindObjectOfType<GameObject>().GetComponent<Manager>();
+//      myManager = FindObjectOfType<GameObject>().GetComponent<Manager>();
         myManager = GameObject.Find("GameManager").GetComponent<Manager>();
     }
 

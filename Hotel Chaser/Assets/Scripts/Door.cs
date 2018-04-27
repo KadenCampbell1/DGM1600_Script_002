@@ -24,6 +24,5 @@ public class Door : MonoBehaviour {
     {
         theCanvas.enabled = false;
     }
-    //array of sprites to change image of doors
-    //switch to do locations to switch the images
+    
 }

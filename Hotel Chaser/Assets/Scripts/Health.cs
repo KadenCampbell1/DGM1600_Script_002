@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour {
 
@@ -10,17 +11,27 @@ public class Health : MonoBehaviour {
     public Camera afterDeathCamera;
     public Manager myManager;
     public Canvas deathCanvas;
+    public Text livesText;
 
     private void Start()
     {
         myManager = FindObjectOfType<Manager>().GetComponent<Manager>();
         deathCanvas = GameObject.Find("DeathCanvas").GetComponent<Canvas>();
         deathCanvas.enabled = false;
+        livesText.text = "Lives: " + health.ToString();
+    }
+
+    private void Update()
+    {
+        livesText.text = "Lives: " + health.ToString();
     }
 
     public void IncrementHealth(int amount)
     {
+        
         health += amount;
+
+        livesText.text = "Lives: " + health.ToString();
 
         if (health <= 0)
         {

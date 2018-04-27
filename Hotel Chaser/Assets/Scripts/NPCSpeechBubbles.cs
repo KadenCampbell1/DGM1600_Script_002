@@ -27,21 +27,21 @@ public class NPCSpeechBubbles : MonoBehaviour
                 textBubble.text = "Excuse me, Lobby boy.";
                 break;
             case npcLevel.Level02:
-                textBubble.text = "Oh Sonny, I need some help.";
+                textBubble.text = "Oh, sonny, I need some help.";
                 break;
             case npcLevel.Level03:
-                textBubble.text = "Lobby boy\n" +
-                "Lobby boy\n" +
-                "Lobby boy";
+                textBubble.text = "Lobby boy...\n" +
+                "Lobby boy...\n" +
+                "Lobby boy...";
                 break;
             case npcLevel.Level04:
                 textBubble.text = "Hey, Lobby boy.";
                 break;
             case npcLevel.Level05:
-                textBubble.text = "Hey, yo bud.";
+                textBubble.text = "Hey, yo, bud.";
                 break;
             case npcLevel.Level06:
-                textBubble.text = "Excuse me, could you help me.";
+                textBubble.text = "Excuse me, could you help me?";
                 break;
             case npcLevel.Level07:
                 textBubble.text = "Yo, Lobby boy.";
@@ -124,41 +124,41 @@ public class NPCSpeechBubbles : MonoBehaviour
             case npcLevel.Level01:
 
                 textBubble.text = "Will you take my PURSE to my room? \n" +
-                    "It is room 200 just straight ahead. \n" +
+                    "It is room 200, just straight ahead. \n" +
                     "It will make you faster.\n" +
-                    "Thanks Lobby boy";
+                    "Thanks, Lobby boy.";
                 break;
             case npcLevel.Level02:
                 textBubble.text = "Thank you for coming over.\n" +
-                "My LUGGAGE is pretty heavy and I can't move it.\n" +
-                "Could you take it to room 201? It is just straight ahead." +
-                "It will weigh you down.";
+                "My LUGGAGE is pretty heavy, and I can't move it.\n" +
+                "Could you take it to room 201? It is just straight ahead. " +
+                "It will slow you down.";
                 break;
             case npcLevel.Level03:
-                textBubble.text = "If you would go and take my BACKPACK to my room.\n" +
-               "It is room 202 just straight ahead. Thank you.\n" +
-               "It will give you an extra ''Fall''.";
+                textBubble.text = "Would you go and take my BACKPACK to my room?\n" +
+               "It is room 202, just straight ahead. Thank you.\n" +
+               "It will give you an extra ''Trip.''";
                 break;
             case npcLevel.Level04:
-                textBubble.text = "Ah, Lobby boy, I have don't have enough hands.\n" +
+                textBubble.text = "Ah, Lobby boy, I don't have enough hands.\n" +
                "Would you mind carrying my BRIEFCASE to room 203? It is just straight ahead.\n" +
                "It will increase your jump height.";
                 break;
             case npcLevel.Level05:
-                textBubble.text = "Yo, Yo, Yo. Lobby boy I'm glad you shuffled over.\n" +
-                "I need you to run my BOARD to my room 206.\n" +
+                textBubble.text = "Yo, Yo, Yo. Lobby boy, I'm glad you shuffled over.\n" +
+                "I need you to run my BOARD to my room--204.\n" +
                 "It will make you really fast.";
                 break;
             case npcLevel.Level06:
-                textBubble.text = "Oh good, Lobby boy, my room is 205.\n" +
+                textBubble.text = "Oh, good, Lobby boy, my room is 205.\n" +
                 "Would you mind taking my BOOK to my room?" +
                 " It is just straight ahead.\n" +
                 "It will increase your speed and jump height.";
                 break;
             case npcLevel.Level07:
-                textBubble.text = "Can you take my SUIT to room 204? It is just staight ahead.\n" +
-                "I don't want it to wrinkle. Thanks my boy.\n" +
-                "It will decrease your speed and jump height.";
+                textBubble.text = "Can you take my SUIT to room 206? It is just straight ahead.\n" +
+                "I don't want it to wrinkle. Thanks, my boy.\n" +
+                "It will decrease your speed and jump height, but here are some extra lives.";
                 break;
         }
 /*

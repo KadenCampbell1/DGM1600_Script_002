@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer rend;
     public Health healthScript;
     public Money moneyScript;
+    public Manager myManager;
 
     // Use this for initialization
     void Start()
@@ -25,11 +26,13 @@ public class PlayerMovement : MonoBehaviour
         rend = GetComponent<SpriteRenderer>();
         healthScript = GetComponent<Health>();
         moneyScript = FindObjectOfType<Money>().GetComponent<Money>();
+        myManager = FindObjectOfType<Manager>().GetComponent<Manager>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        //myManager.IncrementScore(0);
 
         if (!sideScroll)
         {
@@ -113,12 +116,12 @@ public class PlayerMovement : MonoBehaviour
         {
             healthScript.IncrementHealth(-1);
         }
-
+/*
         if (collider.gameObject.CompareTag("Money"))
         {
             //moneyScript.IncrementScore(1);
         }
-
+*/
     }
 
 }

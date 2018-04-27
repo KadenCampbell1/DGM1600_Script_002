@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e8cd6f850082b5c41ae6f91baf8dd46f
-timeCreated: 1524614828
+timeCreated: 1524777270
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -16,6 +16,7 @@ TextureImporter:
     21300018: HallwayTiles_Wall
     21300020: HallwayTiles_Elevator
     21300022: HallwayTiles_WallBlackLine
+    21300024: HallwayTiles_RoomNum206
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -248,6 +249,20 @@ TextureImporter:
         y: 5
         width: 1
         height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: HallwayTiles_RoomNum206
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 132
+        width: 25
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

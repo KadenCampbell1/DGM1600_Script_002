@@ -28,12 +28,16 @@ public class Manager : MonoBehaviour {
             Destroy(this.gameObject);                       //then destroy this object
         }
     }
-
-
+/*
+    private void Update()
+    {
+        scoreText.text = "Money: " + score.ToString();
+    }
+*/
     public void IncrementScore(int value)
     {
         score += value;
-        scoreText.text = "Score: " + score.ToString();
+        scoreText.text = "Money: " + score.ToString();
     }
 
     public void LoadLevel(string level)

@@ -25,7 +25,7 @@ public class ItemEffect : MonoBehaviour {
                 playerScript.speed += 10;
                 break;
             case NPCSpeechBubbles.npcLevel.Level02:
-                playerScript.speed -= 5;
+                playerScript.speed -= 3;
                 break;
             case NPCSpeechBubbles.npcLevel.Level03:
                 playerScript.healthScript.health += 1;
@@ -42,8 +42,9 @@ public class ItemEffect : MonoBehaviour {
                 break;
             case NPCSpeechBubbles.npcLevel.Level07:
                     playerScript.speed -= 5;
-                    playerScript.jump -= 100;
-                break;
+                    playerScript.jump -= 70;
+                    playerScript.healthScript.health += 7;
+                    break;
         }
     }
     

@@ -10,8 +10,11 @@ public class TextBubbleTester : MonoBehaviour {
 
     void Awake()
     {
-
-        textBubbleCanvas = GameObject.Find("PlayerSpeechCanvas").GetComponent<Canvas>();               //finds object by name
+        if(GameObject.Find("PlayerSpeechCanvas").GetComponent<Canvas>() != null)
+        {
+            textBubbleCanvas = GameObject.Find("PlayerSpeechCanvas").GetComponent<Canvas>();             //finds object by name
+        }return;
+         
         //textBubbleCanvas.enabled = false;
     }
 

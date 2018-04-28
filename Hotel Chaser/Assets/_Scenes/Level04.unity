@@ -2049,6 +2049,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a54805a71dd16248b538a448798a777, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1861373583 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114812807464144200, guid: 3a54805a71dd16248b538a448798a777,
+    type: 2}
+  m_PrefabInternal: {fileID: 1861373582}
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!114 &1863309562 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114778925942109844, guid: 3a54805a71dd16248b538a448798a777,
@@ -2093,7 +2099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeLength: 300
   healthScript: {fileID: 0}
-  timeText: {fileID: 0}
+  timeText: {fileID: 1861373583}
 --- !u!114 &1879743863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2143,7 +2149,7 @@ MonoBehaviour:
   afterDeathCamera: {fileID: 1261316448}
   myManager: {fileID: 0}
   deathCanvas: {fileID: 0}
-  livesText: {fileID: 0}
+  livesText: {fileID: 1863309562}
 --- !u!114 &1879743866
 MonoBehaviour:
   m_ObjectHideFlags: 0
